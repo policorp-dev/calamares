@@ -1,3 +1,9 @@
+calamares (3.2.61-Policorp-1) unstable; urgency=medium
+
+  * Changed string in lang pt_BR
+
+ -- Edson Juliano Drosdeck <edson@policorp.com.br>  Thu, 17 Oct 2024 17:58:13 +0000
+
 calamares (3.2.61-1) unstable; urgency=medium
 
   * New upstream release
