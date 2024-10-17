@@ -855,12 +855,12 @@ O instalador será fechado e todas as alterações serão perdidas.</translation
     <message>
       <location filename="../src/modules/welcome/Config.cpp" line="71"/>
       <source>This computer does not satisfy some of the recommended requirements for installing %1.&lt;br/&gt;Installation can continue, but some features might be disabled.</source>
-      <translation>Este computador não satisfaz alguns dos requisitos recomendados para instalar %1.&lt;br/&gt;A instalação pode continuar, mas alguns recursos podem ser desativados.</translation>
+      <translation>Este computador não satisfaz alguns dos requisitos recomendados para instalar o %1.&lt;br/&gt;A instalação pode continuar, mas alguns recursos podem ser desativados.</translation>
     </message>
     <message>
       <location filename="../src/modules/welcome/Config.cpp" line="81"/>
       <source>This program will ask you some questions and set up %2 on your computer.</source>
-      <translation>O instalador irá fazer algumas perguntas e confgurar o sistema no computador.</translation>
+      <translation>O instalador irá fazer algumas perguntas e configurar o sistema no computador.</translation>
     </message>
     <message>
       <location filename="../src/modules/welcome/Config.cpp" line="269"/>
