@@ -120,7 +120,7 @@ getWidgetSidebar( Calamares::DebugWindowManager* debug,
         logoLabel->setPalette( plt );
     }
     logoLabel->setAlignment( Qt::AlignCenter );
-    logoLabel->setFixedSize( 80, 80 );
+    logoLabel->setFixedSize( 80, 136 ); //aqui
     logoLabel->setPixmap( branding->image( Calamares::Branding::ProductLogo, logoLabel->size() ) );
     logoLayout->addWidget( logoLabel );
     logoLayout->addStretch();
