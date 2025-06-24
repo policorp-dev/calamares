@@ -1,7 +1,7 @@
 Source: calamares
 Section: utils
 Priority: optional
-Maintainer: Jonathan Carter <jcc@debian.org>
+Maintainer: Edson Juliano Drosdeck <edson@policorp.com.br>
 Build-Depends: cmake,
                cryptsetup <!nocheck>,
                debhelper-compat (= 13),
@@ -36,8 +36,6 @@ Build-Depends: cmake,
 Standards-Version: 4.7.0
 Rules-Requires-Root: no
 Homepage: https://github.com/calamares/calamares
-Vcs-Browser: https://salsa.debian.org/qt-kde-team/extras/calamares
-Vcs-Git: https://salsa.debian.org/qt-kde-team/extras/calamares.git
 
 Package: calamares
 Architecture: linux-any
