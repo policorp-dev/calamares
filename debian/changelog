@@ -1,3 +1,9 @@
+calamares (3.3.Policorp-3) unstable; urgency=medium
+
+  * Added patch to remove mkinitcpio verify
+
+ -- Edson Juliano Drosdeck <edson@policorp.com.br>  Thu, 13 Nov 2025 12:35:22 +0000
+
 calamares (3.3.Policorp-2) unstable; urgency=medium
 
   * Updated version in Policorp
