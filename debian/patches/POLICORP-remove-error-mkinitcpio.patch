@@ -1,0 +1,15 @@
+Index: calamares/src/modules/grubcfg/main.py
+===================================================================
+--- calamares.orig/src/modules/grubcfg/main.py
++++ calamares/src/modules/grubcfg/main.py
+@@ -149,9 +149,7 @@ def modify_grub_default(partitions, root
+     plymouth_bin = libcalamares.utils.target_env_call(
+         ["sh", "-c", "which plymouth"]
+         )
+-    uses_systemd_hook = libcalamares.utils.target_env_call(
+-        ["sh", "-c", "grep -q \"^HOOKS.*systemd\" /etc/mkinitcpio.conf"]
+-        ) == 0
++    uses_systemd_hook = False
+     # Shell exit value 0 means success
+     have_plymouth = plymouth_bin == 0
+     use_systemd_naming = dracut_bin == 0 or uses_systemd_hook
