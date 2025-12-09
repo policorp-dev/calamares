@@ -36,6 +36,7 @@ Build-Depends: cmake,
 Standards-Version: 4.7.0
 Rules-Requires-Root: no
 Homepage: https://github.com/calamares/calamares
+Vcs-Git: https://github.com/policorp-dev/calamares.git
 
 Package: calamares
 Architecture: linux-any
